@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Aditya Sangal — Links',
   description:
-    'Websites, Instagram, Pinterest, Are.na, and contact details for Aditya Sangal.',
+    'Websites, Instagram, Are.na, and contact details for Aditya Sangal.',
   metadataBase: new URL('https://npclabs-19.github.io/aditya-links/'),
   alternates: {
     canonical: './',

@@ -28,12 +28,6 @@ const links = [
     mark: 'IG',
   },
   {
-    label: 'Pinterest',
-    note: 'Visual archive',
-    href: 'https://in.pinterest.com/19s1750/',
-    mark: 'P',
-  },
-  {
     label: 'Are.na',
     note: 'Research & references',
     href: 'https://www.are.na/aditya-sangal',
