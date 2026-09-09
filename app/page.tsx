@@ -1,4 +1,6 @@
 import { ArrowUpRight, Share2 } from 'lucide-react';
+import type { CSSProperties } from 'react';
+import { BackgroundVisual } from './background-visual';
 
 const links = [
   {
@@ -42,8 +44,7 @@ const links = [
 export default function Home() {
   return (
     <main className="link-page">
-      <div className="ambient ambient-one" />
-      <div className="ambient ambient-two" />
+      <BackgroundVisual />
 
       <section className="profile-shell" aria-labelledby="profile-title">
         <nav className="top-actions" aria-label="Page actions">
@@ -78,7 +79,6 @@ export default function Home() {
           </div>
           <p className="eyebrow">Studio / Research / Archive</p>
           <h1 id="profile-title">Aditya Sangal</h1>
-          <p className="profile-note">19 Studio × Certified NPC</p>
         </header>
 
         <div className="link-list" aria-label="Profile links">
@@ -89,7 +89,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
               key={link.href}
-              style={{ '--index': index } as React.CSSProperties}
+              style={{ '--index': index } as CSSProperties}
             >
               <span className={`link-mark mark-${index}`} aria-hidden="true">
                 {link.mark}
@@ -108,10 +108,10 @@ export default function Home() {
           ))}
         </div>
 
-        <footer>
-          <span>ADITYA SANGAL</span>
-          <span className="footer-glyph" aria-hidden="true">✦</span>
-          <span>MMXXVI</span>
+        <footer className="contact-footer" aria-label="Contact details">
+          <a href="mailto:hello@19-studio.com">hello@19-studio.com</a>
+          <span className="contact-separator" aria-hidden="true">|</span>
+          <a href="tel:+918289074022">+91 8289074022</a>
         </footer>
       </section>
     </main>

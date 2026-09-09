@@ -10,8 +10,18 @@
     "file": "aditya-links/_next/static/chunks/rolldown-runtime-CFnxWSvU.js",
     "name": "rolldown-runtime"
   },
+  "app/background-visual.tsx": {
+    "file": "aditya-links/_next/static/chunks/background-visual-gmx6UxkN.js",
+    "name": "background-visual",
+    "src": "app/background-visual.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-CFnxWSvU.js",
+      "_framework-uqWHcviv.js"
+    ]
+  },
   "node_modules/lucide-react/dist/esm/Icon.mjs": {
-    "file": "aditya-links/_next/static/chunks/Icon-e0mAmHgq.js",
+    "file": "aditya-links/_next/static/chunks/Icon-CQsnDISU.js",
     "name": "Icon",
     "src": "node_modules/lucide-react/dist/esm/Icon.mjs",
     "isDynamicEntry": true,
@@ -21,7 +31,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js": {
-    "file": "aditya-links/_next/static/chunks/app-route-prefetch-policy-Bag2Mr8I.js",
+    "file": "aditya-links/_next/static/chunks/app-route-prefetch-policy-BkHKBUjz.js",
     "name": "app-route-prefetch-policy",
     "src": "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
     "isDynamicEntry": true,
@@ -30,7 +40,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "aditya-links/_next/static/chunks/layout-segment-context-BEWSH5dO.js",
+    "file": "aditya-links/_next/static/chunks/layout-segment-context-vUzu5pR0.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -41,7 +51,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/streamed-icons.js": {
-    "file": "aditya-links/_next/static/chunks/streamed-icons-B87GP_9I.js",
+    "file": "aditya-links/_next/static/chunks/streamed-icons-1eXDEkqt.js",
     "name": "streamed-icons",
     "src": "node_modules/vinext/dist/shims/streamed-icons.js",
     "isDynamicEntry": true,
@@ -51,7 +61,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "aditya-links/_next/static/chunks/index-ilHlF0DQ.js",
+    "file": "aditya-links/_next/static/chunks/index-BNVJEUOl.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -63,6 +73,7 @@
       "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
       "virtual:vinext-app-browser-entry",
       "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "app/background-visual.tsx",
       "node_modules/lucide-react/dist/esm/Icon.mjs",
       "node_modules/vinext/dist/shims/streamed-icons.js"
     ]

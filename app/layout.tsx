@@ -15,14 +15,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Aditya Sangal — Links',
   description:
-    '19 Studio, Certified NPC, Pinterest, Are.na, and more from Aditya Sangal.',
+    'Websites, Instagram, Pinterest, Are.na, and contact details for Aditya Sangal.',
   metadataBase: new URL('https://npclabs-19.github.io/aditya-links/'),
   alternates: {
     canonical: './',
   },
   openGraph: {
     title: 'Aditya Sangal — Links',
-    description: '19 Studio / Certified NPC / Archive',
+    description: 'Studio / Research / Archive',
     url: 'https://npclabs-19.github.io/aditya-links/',
     siteName: 'Aditya Sangal — Links',
     images: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Aditya Sangal — Links',
-    description: '19 Studio / Certified NPC / Archive',
+    description: 'Studio / Research / Archive',
     images: ['https://npclabs-19.github.io/aditya-links/og.png'],
   },
 };
