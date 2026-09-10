@@ -282,7 +282,8 @@
 .mark-1 { background: #fff0d5; color: #b00616; }
 .mark-2 { background: #1d1c1a; color: #f5ff55; font-size: 9px; }
 .mark-3 { background: #f5ff55; color: #161513; }
-.mark-4 { background: #d7c7ff; color: #381b79; font-size: 16px; }
+.mark-4 { background: #fff8ed; color: #bd001c; font-family: Georgia, serif; font-size: 23px; }
+.mark-5 { background: #d7c7ff; color: #381b79; font-size: 16px; }
 
 .link-copy {
   display: flex;
